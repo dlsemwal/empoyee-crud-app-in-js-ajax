@@ -1,2 +1,2 @@
-# empoyee-crud-app-in-js
-A simple Javascript CRUD application
+# empoyee-crud-app-in-js-ajax
+A simple Javascript CRUD application using ajax
