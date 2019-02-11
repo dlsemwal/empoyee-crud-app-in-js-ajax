@@ -1,0 +1,40 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "name": "Amritanjali",
+      "contact": 858709676,
+      "salary": 999
+    },
+    {
+      "id": 3,
+      "name": "Mahesh Joshi",
+      "contact": 7536423851,
+      "salary": 12999
+    },
+    {
+      "id": 4,
+      "name": "John Wilson",
+      "contact": 9759280106,
+      "salary": 333
+    },
+    {
+      "id": 5,
+      "name": "Sean Paul",
+      "contact": 7909280596,
+      "salary": 799
+    },
+    {
+      "id": 6,
+      "name": "Jay Andrew",
+      "contact": 9411587832,
+      "salary": 555
+    },
+    {
+      "id": 7,
+      "name": "Divyanshu Semwal",
+      "contact": 8077149430,
+      "salary": 30000
+    }
+  ]
+}
