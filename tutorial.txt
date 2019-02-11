@@ -1,0 +1,300 @@
+ create mode 100644 main.css
+ create mode 100644 main.js
+
+F:\backup\empoyee-crud-app-in-js>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+F:\backup\empoyee-crud-app-in-js>git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.47 KiB | 843.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/dlsemwal/empoyee-crud-app-in-js.git
+   34d6130..81560ac  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+F:\backup\empoyee-crud-app-in-js>cd ..
+
+F:\backup>git clone https://github.com/dlsemwal/empoyee-crud-app-in-js-ajax.git
+Cloning into 'empoyee-crud-app-in-js-ajax'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+F:\backup>cd empoyee-crud-app-in-js-ajax
+
+F:\backup\empoyee-crud-app-in-js-ajax>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+F:\backup\empoyee-crud-app-in-js-ajax>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+F:\backup\empoyee-crud-app-in-js-ajax>git add .
+
+F:\backup\empoyee-crud-app-in-js-ajax>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   README.md
+
+
+F:\backup\empoyee-crud-app-in-js-ajax>git log
+commit ac868980f6aab519e6b1f519456022e64ba32825 (HEAD -> master, origin/master,
+origin/HEAD)
+Author: dlsemwal <47035363+dlsemwal@users.noreply.github.com>
+Date:   Fri Jan 25 23:37:02 2019 +0530
+
+    Initial commit
+
+F:\backup\empoyee-crud-app-in-js-ajax>git commit -m "added readme file"
+[master 8e59b95] added readme file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+F:\backup\empoyee-crud-app-in-js-ajax>git log
+commit 8e59b954034845cd1370a692db47f192fffa2793 (HEAD -> master)
+Author: Divyanshu Semwal <dlsemwal@gmail.com>
+Date:   Fri Jan 25 23:45:03 2019 +0530
+
+    added readme file
+
+commit ac868980f6aab519e6b1f519456022e64ba32825 (origin/master, origin/HEAD)
+Author: dlsemwal <47035363+dlsemwal@users.noreply.github.com>
+Date:   Fri Jan 25 23:37:02 2019 +0530
+
+    Initial commit
+
+F:\backup\empoyee-crud-app-in-js-ajax>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 344 bytes | 172.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/dlsemwal/empoyee-crud-app-in-js-ajax.git
+   ac86898..8e59b95  master -> master
+
+F:\backup\empoyee-crud-app-in-js-ajax>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+F:\backup\empoyee-crud-app-in-js-ajax>git log
+commit 8e59b954034845cd1370a692db47f192fffa2793 (HEAD -> master, origin/master,
+origin/HEAD)
+Author: Divyanshu Semwal <dlsemwal@gmail.com>
+Date:   Fri Jan 25 23:45:03 2019 +0530
+
+    added readme file
+
+commit ac868980f6aab519e6b1f519456022e64ba32825
+Author: dlsemwal <47035363+dlsemwal@users.noreply.github.com>
+Date:   Fri Jan 25 23:37:02 2019 +0530
+
+    Initial commit
+
+F:\backup\empoyee-crud-app-in-js-ajax>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+F:\backup\empoyee-crud-app-in-js-ajax>git fetch
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+Unpacking objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+From https://github.com/dlsemwal/empoyee-crud-app-in-js-ajax
+   8e59b95..a443668  master     -> origin/master
+
+F:\backup\empoyee-crud-app-in-js-ajax>git status
+On branch master
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+
+F:\backup\empoyee-crud-app-in-js-ajax>git pull
+Updating 8e59b95..a443668
+Fast-forward
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+F:\backup\empoyee-crud-app-in-js-ajax>git log
+commit a443668cf6eba0b9f06bffdd12e0d02f5a8321e1 (HEAD -> master, origin/master,
+origin/HEAD)
+Author: dlsemwal <47035363+dlsemwal@users.noreply.github.com>
+Date:   Fri Jan 25 23:48:19 2019 +0530
+
+    updated readme file
+
+commit 8e59b954034845cd1370a692db47f192fffa2793
+Author: Divyanshu Semwal <dlsemwal@gmail.com>
+Date:   Fri Jan 25 23:45:03 2019 +0530
+
+    added readme file
+
+commit ac868980f6aab519e6b1f519456022e64ba32825
+Author: dlsemwal <47035363+dlsemwal@users.noreply.github.com>
+Date:   Fri Jan 25 23:37:02 2019 +0530
+
+    Initial commit
+
+F:\backup\empoyee-crud-app-in-js-ajax>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+F:\backup\empoyee-crud-app-in-js-ajax>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/dlsemwal/empoyee-crud-app-in-js-ajax
+   a443668..40063c9  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+        README.md
+Please commit your changes or stash them before you merge.
+Aborting
+Updating a443668..40063c9
+
+F:\backup\empoyee-crud-app-in-js-ajax>git add .
+
+F:\backup\empoyee-crud-app-in-js-ajax>git commit -m "update readme"
+[master 4de1089] update readme
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+F:\backup\empoyee-crud-app-in-js-ajax>git log
+commit 4de108914b5a4fdbc17e82c71a856947bd784651 (HEAD -> master)
+Author: Divyanshu Semwal <dlsemwal@gmail.com>
+Date:   Sat Jan 26 00:01:20 2019 +0530
+
+    update readme
+
+commit a443668cf6eba0b9f06bffdd12e0d02f5a8321e1
+Author: dlsemwal <47035363+dlsemwal@users.noreply.github.com>
+Date:   Fri Jan 25 23:48:19 2019 +0530
+
+    updated readme file
+
+commit 8e59b954034845cd1370a692db47f192fffa2793
+Author: Divyanshu Semwal <dlsemwal@gmail.com>
+Date:   Fri Jan 25 23:45:03 2019 +0530
+
+    added readme file
+
+commit ac868980f6aab519e6b1f519456022e64ba32825
+Author: dlsemwal <47035363+dlsemwal@users.noreply.github.com>
+Date:   Fri Jan 25 23:37:02 2019 +0530
+
+    Initial commit
+
+F:\backup\empoyee-crud-app-in-js-ajax>git push
+To https://github.com/dlsemwal/empoyee-crud-app-in-js-ajax.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/dlsemwal/empoyee-crud-app
+-in-js-ajax.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+F:\backup\empoyee-crud-app-in-js-ajax>git pull
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+F:\backup\empoyee-crud-app-in-js-ajax>git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+F:\backup\empoyee-crud-app-in-js-ajax>git log
+commit 4de108914b5a4fdbc17e82c71a856947bd784651 (HEAD -> master)
+Author: Divyanshu Semwal <dlsemwal@gmail.com>
+Date:   Sat Jan 26 00:01:20 2019 +0530
+
+    update readme
+
+commit a443668cf6eba0b9f06bffdd12e0d02f5a8321e1
+Author: dlsemwal <47035363+dlsemwal@users.noreply.github.com>
+Date:   Fri Jan 25 23:48:19 2019 +0530
+
+    updated readme file
+
+commit 8e59b954034845cd1370a692db47f192fffa2793
+Author: Divyanshu Semwal <dlsemwal@gmail.com>
+Date:   Fri Jan 25 23:45:03 2019 +0530
+
+    added readme file
+
+commit ac868980f6aab519e6b1f519456022e64ba32825
+Author: dlsemwal <47035363+dlsemwal@users.noreply.github.com>
+Date:   Fri Jan 25 23:37:02 2019 +0530
+
+    Initial commit
+
+F:\backup\empoyee-crud-app-in-js-ajax>git add .
+
+F:\backup\empoyee-crud-app-in-js-ajax>git commit -m "resolved conflict"
+[master fda9174] resolved conflict
+
+F:\backup\empoyee-crud-app-in-js-ajax>git pull
+Already up to date.
+
+F:\backup\empoyee-crud-app-in-js-ajax>git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 512 bytes | 256.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/dlsemwal/empoyee-crud-app-in-js-ajax.git
+   40063c9..fda9174  master -> master
+
+F:\backup\empoyee-crud-app-in-js-ajax>

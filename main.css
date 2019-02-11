@@ -1,0 +1,81 @@
+/* external css of product */
+body {
+    margin: 25px auto;
+    width: 75%;
+    font-family: verdana;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    line-height: 1.4;
+    opacity: .6;
+}
+
+header {
+    background-color: navy;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+section {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.header {
+    color: white;
+    float: left;
+    margin: 19px;
+}
+
+.createBtn {
+    float: right;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 15px;
+    font-size: 17px;
+    margin: 15px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.item {
+    float: left;
+    margin: 15px 0;
+}
+
+.dltBtn {
+    float: right;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 0px;
+    margin: 22px 0 0px 16px;
+    width: 100px;
+}
+
+.editBtn {
+    float: right;
+    background-color: navy;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 0px;
+    margin: 22px 0 0px 16px;
+    width: 100px;
+}
+
+.viewBtn {
+    float: right;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 0px;
+    margin: 22px 0 0px 16px;
+    width: 100px;
+}
